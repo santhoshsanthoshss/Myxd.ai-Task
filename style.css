@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-user {
+  background: #fd7e14;
+  color: white;
+  font-size: 10px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.fa-sort-desc {
+  position: relative;
+  top: 20px;
+  right: 35px;
+  color: brown;
+}
+
+.viewtext {
+  margin-left: 12%;
+}
+.colorsli {
+  color: red;
+}
+.profile {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  right: 70px;
+}
+.image_profile {
+  border-radius: 50px;
+
+  width: 100%;
+  height: 100%;
+}
+.iconsbell .fa-sort-desc {
+  color: #525ceb;
+  position: relative;
+  top: 0px;
+  left: 4px;
+  font-size: 20px;
+}
+
+.fa-bell {
+  position: relative;
+  top: 2px;
+  right: 71px;
+  color: #525ceb;
+}
+
+/* simbtyepage */
+
+.simbtyepage {
+  background-color: rgba(128, 128, 128, 0.263);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.mainstage {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.stageimg {
+  width: 220px;
+  height: 30px;
+}
+.stageimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.simbnumber,
+.simptree,
+.need-help {
+  position: relative;
+  top: 7px;
+}
+.devicestage {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 36%;
+  margin-right: 6%;
+}
+.bootparent {
+  display: flex;
+  align-items: center;
+}
+
+.bot-container {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+.bot-container img {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.263);
+  border-radius: 50%;
+}
+
+/* mainbody */
+
+.accordion-button::after {
+  background-image: none !important;
+}
+.mainflex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* middle boy */
+
+.plineback {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 56%;
+  /* height: 66vh; */
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 10px;
+  padding: 20px;
+  /* border: 1px solid red; */
+}
+.plineback p {
+  width: 600px;
+  font-size: 13px;
+}
+
+.checkicons {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  margin-top: 20px;
+}
+
+.checkicons,
+.fa-check {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.takedecison {
+  display: flex;
+}
+.routes {
+  background-color: rgba(173, 216, 230, 0.66);
+  width: 90%;
+  height: 14vh;
+  margin-left: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.menuicons {
+  font-size: 45px;
+}
+
+.fa-th-large {
+  color: #3081d0;
+}
+.routesfield {
+  /* padding: 10px; */
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.routesfield h6 {
+  font-weight: bold;
+}
+
+.btndecison {
+  background-color: #3081d0;
+  width: 120px;
+  border-radius: 15px;
+  padding: 4px;
+  border: none;
+  color: white;
+}
+
+.fa-trash {
+  margin-left: 10px;
+}
+
+.addbtn {
+  background-color: rgba(128, 128, 128, 0.263);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: rgba(0, 0, 0, 0.815);
+  margin-top: 15%;
+  margin-left: 7%;
+}
+.addbtn,
+.fa-plus {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.decisonsuser {
+  display: flex;
+  align-items: center;
+}
+.addnew {
+  margin-top: 120px;
+  margin-left: 20px;
+  border: none;
+  font-weight: bold;
+  background: none;
+  color: #3081d0;
+}
+
+.round {
+  background-color: #fd7e14 !important;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* right side */
+.controlsflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.controlsflex1 {
+  background-color: rgba(128, 128, 128, 0.263);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: rgba(0, 0, 0, 0.815);
+}
+.controlsflex1,
+.fa-plus {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.controlsuse {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.Design-pro {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-outline-success {
+  color: #ffa500; /* Orange color */
+  border-color: #ffa500; /* Orange color */
+}
+.decision-box {
+  background-color: rgba(173, 216, 230, 0.66);
+  /* margin-left: 20%; */
+  position: relative;
+  left: 49px;
+  width: 90%;
+  height: 100px;
+  /* padding: 10px; */
+  margin: 20px;
+  border-radius: 10px;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+strong {
+  padding-bottom: 20px;
+  display: none;
+  margin-left: 20px;
+}
+.delete-icon {
+  position: relative;
+  bottom: 182px;
+  right: 10px;
+  margin-left: 100%;
+  cursor: pointer;
+}
+
+.decision-box .fa-th-large {
+  position: relative;
+  bottom: 25px;
+  right: 100%;
+  font-size: 45px;
+}
+
+.decision-box h6 {
+  margin-left: 52px;
+  position: relative;
+  bottom: 75px;
+  font-weight: bold;
+}
+.decision-box p {
+  margin-left: 52px;
+  position: relative;
+  bottom: 97px;
+
+  /* font-weight: bold; */
+}
+
+.decision-box .checkicons {
+  position: relative;
+  top: 20px;
+  right: 85px;
+}
+
+.decision-box .btndecison {
+  position: relative;
+  left: 80%;
+  bottom: 153px;
+}
+
+.nextbtn {
+  position: relative;
+  top: 59px;
+  left: 45%;
+}
